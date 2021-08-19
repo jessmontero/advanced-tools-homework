@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 h1,
@@ -85,4 +86,14 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .projects img {
+    display: none;
+  }
+
+  .apps {
+    text-align: center;
+  }
 }
