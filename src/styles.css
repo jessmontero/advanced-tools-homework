@@ -36,6 +36,10 @@ a:hover {
   color: white;
 }
 
+.secondary-link:hover {
+  color: var(--primary-color);
+}
+
 .email-link:hover {
   text-decoration: underline;
   color: #0d6efd;
