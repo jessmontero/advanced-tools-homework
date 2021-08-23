@@ -5,8 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin: 100px auto;
 }
 
 h1,
@@ -31,6 +30,15 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+a:hover {
+  color: white;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+  color: #0d6efd;
 }
 
 .body-container {
