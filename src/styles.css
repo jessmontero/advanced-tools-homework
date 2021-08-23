@@ -33,6 +33,10 @@ p {
   line-height: 1.5;
 }
 
+.body-container {
+  margin: 0 6px;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -89,11 +93,35 @@ p {
 }
 
 @media (max-width: 576px) {
-  .projects img {
-    display: none;
+  h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    line-height: 1;
   }
 
-  .apps {
+  h2 {
+    font-size: 34px;
+    margin-bottom: 4px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .app-info {
     text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .navigation-links a {
+    margin: 0 10px;
+  }
+
+  .projects .primary-link {
+    padding: 20px 45px;
+  }
+
+  .app-img img {
+    margin-bottom: 22px;
   }
 }
